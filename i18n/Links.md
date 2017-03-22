@@ -1,0 +1,18 @@
+# Links #
+
+- [Computerphile: The Problem with Time & Timezones](https://www.youtube.com/watch?v=-5wpm-gesOY)
+- [Computerphile: Characters, Symbols and the Unicode Miracle](https://www.youtube.com/watch?v=MijmeoH9LT4)
+- [IETF: RFC 3492 - Punycode: A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)](https://tools.ietf.org/html/rfc3492)
+- [IETF: RFC 3629 - UTF-8, a transformation format of ISO 10646](https://tools.ietf.org/html/rfc3629)
+- [IETF: RCF 5890 - Internationalized Domain Names for Applications (IDNA)](https://tools.ietf.org/html/rfc5890)
+- [ISO 3166](https://de.wikipedia.org/wiki/ISO_3166) / [Liste](https://de.wikipedia.org/wiki/ISO-3166-1-Kodierliste)
+- [ISO 8601](https://de.wikipedia.org/wiki/ISO_8601)
+- [ISO 15924](https://de.wikipedia.org/wiki/ISO_15924)
+- [PHP: intl](http://php.net/manual/de/book.intl.php)
+- [PHP: mbstring](http://php.net/manual/de/book.mbstring.php)
+- [PHP: IDN](http://php.net/manual/de/ref.intl.idn.php)
+- [Unicode](http://www.unicode.org/)
+- [Unicode: Codes for the representation of names of scripts](http://www.unicode.org/iso15924/codelists.html)
+- [Unicode: Common Locale Data Repository (CLDR)](http://cldr.unicode.org/)
+- [W3C: Personennamen aus aller Welt](https://www.w3.org/International/questions/qa-personal-names)
+- [Misc: International Address Formats](https://msdn.microsoft.com/en-us/library/cc195167.aspx)
