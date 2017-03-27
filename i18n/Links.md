@@ -14,5 +14,6 @@
 - [Unicode](http://www.unicode.org/)
 - [Unicode: Codes for the representation of names of scripts](http://www.unicode.org/iso15924/codelists.html)
 - [Unicode: Common Locale Data Repository (CLDR)](http://cldr.unicode.org/)
+- [Unicode: Common Locale Data Repository (CLDR) as JSON](https://github.com/unicode-cldr)
 - [W3C: Personennamen aus aller Welt](https://www.w3.org/International/questions/qa-personal-names)
 - [Misc: International Address Formats](https://msdn.microsoft.com/en-us/library/cc195167.aspx)
