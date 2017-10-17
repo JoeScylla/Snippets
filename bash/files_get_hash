@@ -1,0 +1,9 @@
+#!/bin/bash
+cd ${0%/*}
+R=""
+for file in $(find $1 -type f)
+do
+	mtime=$(stat -f "%Sm" -t "%Y%m%dT%H%M%S" $file)
+	R="$R|$file|$mtime"
+done
+echo $R | md5
