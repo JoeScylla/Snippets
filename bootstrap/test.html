@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+		<style>
+			html, body {
+				height: 100%;
+			}
+			a:hover {
+				cursor: pointer;
+			}
+			#Sidebar { background-color: #ccc; padding-top: 15px;}
+			#Page {}
+			#Content { padding-top: 15px; }
+			#Breadcrump {
+				margin: 0 -30px;
+			}
+			#Breadcrump .nav-link {
+				padding-right: 0;
+				padding-left: 0;
+			}
+			#Breadcrump .nav-item:first-child {
+				padding-left: 1rem;
+			}
+			#Breadcrump .nav-item:not(:first-child) .nav-link:before {
+				content: "/";
+				padding-right: 0.25rem;
+				padding-left: 0.25rem;
+			}
+			#Search {
+				width: 6em;
+			}
+		</style>
+		<title>{{ Title }}</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+			<button class="navbar-toggler navbar-toggler-right" type="button"
+				data-toggle="collapse"
+				data-target="#b92f570722e34ad3a89063d618aab626"
+				aria-controls="b92f570722e34ad3a89063d618aab626"
+				aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#">
+				{{ Project }}
+			</a>
+			<div class="collapse navbar-collapse" id="b92f570722e34ad3a89063d618aab626">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Namespaces</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Interfaces</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Traits</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Classes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Index</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled">|</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a id="f9cfb1f937ba49f6ab043af716aeeb93" class="nav-link dropdown-toggle" 
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false">
+							Class
+						</a>
+						<div class="dropdown-menu" aria-labelledby="f9cfb1f937ba49f6ab043af716aeeb93">
+							<a class="dropdown-item" href="#">Class</a>
+							<a class="dropdown-item" href="#">Constants</a>
+							<a class="dropdown-item" href="#">Properties</a>
+							<a class="dropdown-item" href="#">Methods</a>
+						</div>
+					</li>
+				</ul>
+				<form class="form-inline">
+					<input id="Search" class="form-control" type="text" placeholder="Search...">
+				</form>
+			</div>
+		</nav>
+		
+		<div class="container-fluid h-100">
+			<div class="row h-100">
+				<div id="Sidebar" class="col col-sm-2 collapse show h-100">
+					SIDEBAR<br />
+					SIDEBAR<br />
+					SIDEBAR<br />
+					SIDEBAR<br />
+					SIDEBAR<br />
+					SIDEBAR<br />
+				</div>
+				<div id="Page" class="col col-sm-10 h-100">
+					<div id="Breadcrump" class="container-fluid">
+						<nav class="navbar navbar-light bg-faded rounded navbar-toggleable">
+							<ul class="navbar-nav justify-content-end">
+								<li class="nav-item">
+									<a class="nav-link" href="#">Name</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Space</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">To</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link nav-link active" href="#">Class</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<main id="Content" class="container-fluid">
+						CONTENT
+					</main>
+				</div>
+			</div>
+		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+	</body>
+</html>
