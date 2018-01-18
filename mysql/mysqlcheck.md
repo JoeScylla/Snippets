@@ -1,0 +1,3 @@
+# mysqlcheck #
+
+	mysqlcheck -u root -p --auto-repair --optimize --databases schema1 schema2 ...
